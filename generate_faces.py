@@ -14,8 +14,8 @@ db = ActiveAlchemy('sqlite:///db.sqlite')
 
 # settings
 url = "https://thispersondoesnotexist.com/image"
-male_threshold = 0.4
-female_threshold = 0.6
+male_threshold = 0.0
+female_threshold = 1.0
 temp_file = "temp_img.jpg"
 times_to_run = 500
 seconds_to_sleep = 2
